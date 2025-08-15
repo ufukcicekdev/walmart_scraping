@@ -5,7 +5,13 @@ Walmart ürünlerini hızlı bir şekilde scrape eden async Python aracı.
 ## 📦 Kurulum
 
 ```bash
-pip install aiohttp
+# Virtual environment oluştur
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+
+# Dependencies yükle
+pip install -r requirements.txt
 ```
 
 ## 🚀 Kullanım
